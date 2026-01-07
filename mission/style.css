@@ -1,0 +1,50 @@
+body{
+    font-size: 19px;
+}
+
+#content {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.25em;
+    letter-spacing: 4px;
+}
+
+.subtitle {
+    color: #3469a9;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+hr {
+    height: 1px;
+    background-color: #ddd;
+    width: 90%;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.statement {
+    padding: 30px;
+    line-height: 1.5;
+}
+
+.emphasis {
+    font-style: italic;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+img {
+    width: 30%;
+    display: block;
+    padding-top: 20px;
+    margin: 0 auto;
+}
