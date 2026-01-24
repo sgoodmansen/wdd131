@@ -87,13 +87,21 @@ footer {
         display: none;
     }
 
-    nav a {
-        display: inline;
-    }
-    
     nav {
+        display: block;
         text-align: right;
     }
+
+    nav a {
+        display: inline;
+        border: none;
+    }
+
+    .hide{
+        display: block;
+    }
+
+
 }
 
 @media screen and (min-width: 1000px) {
