@@ -30,6 +30,10 @@ function submitHandler(event) {
     const currentYear = currentDate.getFullYear();
     const currentMonth = currentDate.getMonth() +1;
 
+    if (expMonth > 12) {
+      errors.push('Invalid Month.')
+    }
+
     if (fullExpYear < currentYear || (fullExpYear === currentYear && expMonth < currentMonth)) {
         errors.push('Card is expired.') ;
     }
