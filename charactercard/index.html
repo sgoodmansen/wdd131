@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A character card for the Snortleblat">
+    <meta name="author" content="Spencer Goodmansen">
+
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Snortleblat, Swamp Beast Diplomat Character Profile">
+    <meta property="og:description" content="A character card for the Snortleblat.">
+    <meta property="og:url" content="https://sgoodmansen.github.io/wdd131/charactercard/index.html">
+    <meta property="og:image" content="https://sgoodmansen.github.io/wdd131/charactercard/images/Snortleblat.webp">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Snortleblat, Swamp Beast Diplomat Character Profile">
+    <meta name="twitter:description" content="A character card for the Snortleblat">
+    <meta name="twitter:image" content="https://sgoodmansen.github.io/wdd131/charactercard/images/Snortleblat.webp">
+
+    <!-- One favicon (ICO works everywhere) -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- One Apple Touch Icon (iOS home screen) -->
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+
+    <title>Character Card</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="charactercard.js"></script>
+</head>
+<body>
+    <div class="card">
+        <img class="image">
+        <div class="name"></div>
+        <div class="stats">
+            <p><b>Class: </b><span class="className"></span></p>
+            <p><b>Level: </b><span class="level"></span></p>
+            <p><b>Health: </b><span class="health"></span></p>
+        </div>
+        <div class="buttons">
+            <span class="message"></span>
+            <button id="attacked">Attacked</button>
+            <button id="levelup">Level Up</button>
+        </div>
+    </div>
+    
+</body>
+</html>
