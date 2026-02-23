@@ -40,10 +40,13 @@ attackedBtn.addEventListener("click", function() {
         healthDisplay.textContent = character.health;
 
         if (character.health === 0) {
-            alert("Character Died");
             messageDisplay.textContent = "Character Died"
             attackedBtn.disabled = true;
             levelupBtn.disabled = true;
+
+            setTimeout(function() {
+            alert("Character Died");
+            }, 0);
         }
     }
 });
