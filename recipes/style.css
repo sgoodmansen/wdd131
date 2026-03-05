@@ -45,6 +45,7 @@ h1 {
   display: flex;
   border: 2px solid #333;
   border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .search input {
@@ -55,6 +56,12 @@ h1 {
 
 .search img {
     width: 30px;
+}
+
+.search button {
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
 hr {
@@ -69,6 +76,7 @@ hr {
   border-radius: 8px;
   padding: 15px;
   background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .card img {
