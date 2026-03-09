@@ -6,10 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    min-width: 320px;
-    /* display: flex;
-    justify-content: center; */
-    
+    min-width: 320px;  
 }
 
 img {
@@ -146,7 +143,6 @@ footer {
     .card-content {
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
     }
 
     .description {
