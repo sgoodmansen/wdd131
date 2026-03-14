@@ -344,7 +344,7 @@ function recipesTemplate(recipe) {
         <img src="${recipe.image}" alt="${recipe.name}"> 
         <div class="card-content">
             <div class = "tag">${tagTemplate(recipe.tags)}</div>
-            <h2>${recipe.name}</h2>
+            <h2 class="recipe_name">${recipe.name}</h2>
             <p>${ratingTemplate(recipe.rating)}</p>
             <p class="description">${recipe.description}</p>
         </div>
