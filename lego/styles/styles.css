@@ -136,6 +136,15 @@ h2 {
     padding: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: #0058a0;
+}
+
+a:hover {
+    color: #8c0b10;
+}
+
 /* SEARCH SETS */
 .search {
     display: flex;
