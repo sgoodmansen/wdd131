@@ -230,8 +230,47 @@ const legoSets = [
     ageRange: "18+",
     image: "images/pixar.png",
     description: "The buildable display model, which makes fantastic home office decor, is fully articulated to recreate the character’s bouncing, hopping and rotating movements. The construction set also includes a buildable Disney Pixar ball that opens up to reveal hidden Easter eggs referencing popular Disney Pixar movies.",
-    rating: 5,
+    rating: 4,
     searchText: "pixar lamp disney ball"
+},
+{
+    name: "Star Trek: U.S.S. Enterprise NCC-1701-D",
+    setNumber: "10356",
+    theme: "Icons",
+    year: 2025,
+    pieces: 3600,
+    minifigures: 10,
+    ageRange: "18+",
+    image: "images/star_trek.png",
+    description: "Build a highly detailed replica of Starfleet’s legendary flagship complete with a detachable command saucer, secondary hull, warp nacelles with distinctive red and blue detailing, an opening shuttlebay, 2 mini shuttlepods and an angled display stand with a schematic and ship statistics.",
+    rating: 5,
+    searchText: "star trek enterprise ncc"
+},
+{
+    name: "Eiffel tower",
+    setNumber: "10307",
+    theme: "Icons",
+    year: 2025,
+    pieces: 10001,
+    minifigures: 0,
+    ageRange: "18+",
+    image: "images/eiffel.png",
+    description: "Standing at almost 5 feet tall, the LEGO® Eiffel tower (10307) set for adults is the flagship model in the LEGO Travel & History series. And it’s not just one of the tallest LEGO sets ever, it’s got one of the largest piece counts too – with 10,001 pieces for an immersive experience from start to finish.",
+    rating: 5,
+    searchText: "eiffel tower paris france icon"
+},
+{
+    name: "LEGO Titanic",
+    setNumber: "10294",
+    theme: "Icons",
+    year: 2025,
+    pieces: 9090,
+    minifigures: 0,
+    ageRange: "18+",
+    image: "images/titanic.png",
+    description: "This 1:200 scale model is designed in 3 sections, faithfully recreating the features of the Titanic. The cross section reveals interior details like the first-class dining room, the grand staircase, one of the boiler rooms and many cabins from the different passenger classes. ",
+    rating: 5,
+    searchText: "titanic ship boat icon"
 }
 ];
 
