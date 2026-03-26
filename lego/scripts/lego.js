@@ -133,7 +133,7 @@ const legoSets = [
     name: "Neuschwanstein Castle",
     setNumber: "21063",
     theme: "Architecture",
-    year: 2024,
+    year: 2025,
     pieces: 3455,
     minifigures: 0,
     ageRange: "18+",
@@ -146,7 +146,7 @@ const legoSets = [
     name: "Great Pyramid of Giza",
     setNumber: "21058",
     theme: "Architecture",
-    year: 2024,
+    year: 2022,
     pieces: 1476,
     minifigures: 0,
     ageRange: "18+",
@@ -179,7 +179,7 @@ const legoSets = [
     image: "images/milky_way.png",
     description: "This awe-inspiring piece of art is created from 3,091 layered LEGO bricks and pieces to produce a 3D effect of incredible depth and texture. It includes some of the Milky Way’s most famous points of interest, including Trappist-1, The Pleiades, The Crab Nebula and The Pillars of Creation.",
     rating: 4,
-    searchText: "art space galaxy"
+    searchText: "art space galaxy spiral"
 },
 {
     name: "Hogwarts Castle: The Great Hall",
@@ -198,7 +198,7 @@ const legoSets = [
     name: "Book Nook: Hogwarts Express",
     setNumber: "76450",
     theme: "Harry Potter",
-    year: 2024,
+    year: 2025,
     pieces: 832,
     minifigures: 2,
     ageRange: "10+",
@@ -224,14 +224,14 @@ const legoSets = [
     name: "Disney Pixar Luxo Jr.",
     setNumber: "21357",
     theme: "Ideas",
-    year: 2024,
+    year: 2025,
     pieces: 613,
     minifigures: 0,
     ageRange: "18+",
     image: "images/pixar.png",
     description: "The buildable display model, which makes fantastic home office decor, is fully articulated to recreate the character’s bouncing, hopping and rotating movements. The construction set also includes a buildable Disney Pixar ball that opens up to reveal hidden Easter eggs referencing popular Disney Pixar movies.",
     rating: 5,
-    searchText: "pixar lamp disney"
+    searchText: "pixar lamp disney ball"
 }
 ];
 
